@@ -1,0 +1,103 @@
+body{
+    background-color:antiquewhite;
+}
+
+.pag1{
+
+    margin: auto;
+    width: 400px;
+
+}
+
+h1{
+    margin: auto;
+    width: 80px;
+    height: auto;
+    font-size: 3rem;
+    font-family: Impact;
+    color: rgb(0, 208, 255);
+    border-radius: 2px;
+    border: solid;
+    border-radius: 10px;
+    }
+
+
+li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+.contenedor{
+    text-align: center;
+}
+.MD{
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+}
+.css{
+    width: 400px; 
+    height: 500px;
+}
+.cuerpo{
+    font-family: Times New Roman;
+}
+img{
+    width: 400px;
+    height: 250px;
+}
+.px{
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+}
+.pt{
+    font-size: 14pt;
+}
+.flor{
+width: 5in;
+height: 3in;
+}
+.city{
+    width: 10cm;
+    height: 6cm; 
+}
+.pc {
+    width: 25pc; 
+    height: 15pc; 
+    background-color: 
+    purple; overflow: hidden;
+}
+#padre{
+    font-size: 20px;
+    color: red;
+}
+#hijo{
+    font-size: 2em;
+    color: red;
+}
+.primero{
+    font-size: 3rem;
+}
+.segundo{
+    font-size: 4.8rem;
+}
+.porcentaje {
+    width: 15%; 
+    height: 15%;
+}
+.ex2{
+    font-size: 2ex;
+}
+footer{
+    margin-top: 80px;  
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    font-size: small;
+
+}

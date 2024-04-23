@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de Medida</title>
+    <link rel="stylesheet" href="/estilo.css">
+    <link rel="icon" href="/icons8-google-web-search-50.png">
+</head>
+<body>
+    <header>
+        <h1 class="pag1">Unidades de Medida</h1>
+    </header>
+    <br>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </div>
+        <div>
+            <h2>Unidades de medidas</h2><br>
+    Las unidades de medidas se clasifican en: <br>
+    <br>
+    <div class="Cuerpo">
+    <a href="#Medidas Absolutas">Medidas Absolutas: </a>Estas son las más comunes que vemos a diario. Son medidas que no están referenciadas a ninguna otra unidad, es decir, no dependen de un valor de referencia. Son unidades de medidas definidas por la física, como el píxel, centímetro, metro, etc. …
+    Estas medidas son fijas y no cambian según las especificaciones del dispositivo. Este tipo de medición está indicado para cuando conocemos a la perfección las características físicas y las configuraciones de las medias donde se exhibirán nuestros proyectos.
+    <br>
+    <br>
+    <a href="#Medidas Relativas">Medida Relativas: </a>Estas son las que normalmente no estamos acostumbrados. Estas medidas se calculan en base a otra unidad de medida definida, por ejemplo, em y rem. El uso de ellas es más apropiado para que podamos hacer ajustes en diferentes dispositivos asegurando un layout consistente y fluido en distintas medias.
+    Debido a que estas medidas las calcula el navegador en base a otra unidad, suelen ser bastante flexibles. Es decir, podemos tener resultados diferentes según el entorno.
+    </div>
+    <br>
+        </div>
+        <div id="Medidas Absolutas" class="MD">
+            <h3>Medida Absolutas</h3>
+            Estas se dividen en: 
+            <br>
+        <div class="px">
+            <br>
+            <h4><b>Píxeles (px):</b></h4> 
+        Píxel no es más que los pequeños puntitos luminosos en la pantalla de tu monitor, móvil, televisión, etc. ... Por lo tanto, ¡el píxel es el elemento más pequeño en un dispositivo de exhibición!
+        Esta es una medida muy famosa para los diseñadores web, la mayoría de los desarrolladores web utilizan el píxel como la unidad principal de sus proyectos.
+        Un detalle que pocos conocen es que, de hecho, el píxel del CSS NO es realmente un píxel de la pantalla del dispositivo (hardware), pero lo que llamamos píxel de referencia que suele ser más grande que el píxel real. Lo que termina convirtiéndolo en una medida abstracta donde es necesario controlar el mapeo de este píxel de referencia al píxel de hardware (¡sucede detrás de las cortinas!).
+        Un punto interesante para comentar es que, recientemente el boostrap 4 dejó de usar PX y migró a REM.
+            <br>
+            <br>
+            <img src="/montaña.jpg" alt="montaña">
+            <br>
+            <br>
+            ejemplo de una imagen en 400 px por 250 px.
+            <br>
+
+        </div>
+
+        <div class="px">
+            <h4><b>Points (pt)</b></h4> 
+            <p class="pt">Esta unidad es definitivamente más conocida por los diseñadores, especialmente aquellos que estudian tipografía.
+            Esta medida se usa generalmente en propiedades relacionadas con la fuente de su proyecto. Su abreviatura está marcada con pt y su uso no es tan común, probablemente verás esta unidad muy raramente.
+            En general, se espera que esta medida se utilice en hojas de estilo para impresiones, cuando necesite estar seguro del tamaño de fuente utilizado. ¡No se recomienda para la estilización en pantalla!        
+            <br>
+            por ejemplo este texto explicacion fue escrita en 14 pt.</p>
+
+        </div>
+
+        <div class="px">
+            <b><h4>in (inches/pulgadas)</h4></b> 
+            Esta unidad es definitivamente más conocida por los diseñadores, especialmente aquellos que estudian tipografía.
+            Esta medida se usa generalmente en propiedades relacionadas con la fuente de su proyecto. Su abreviatura está marcada con pt y su uso no es tan común, probablemente verás esta unidad muy raramente.
+            En general, se espera que esta medida se utilice en hojas de estilo para impresiones, cuando necesite estar seguro del tamaño de fuente utilizado. ¡No se recomienda para la estilización en pantalla!        
+            <br>
+            <br>
+            <img src="/Flor.avif" alt="flor" class="flor">
+            <br>
+            <br>
+            ejemplo de una imagen en 5in por 3in. 
+            <br>
+        </div>
+
+        <div class="px">
+            <b><h4>Centímetro y Milímetro (cm/mm)</h4></b> 
+            El centímetro y el milímetro se usan poco en el CSS. Así como el pt, se espera el uso de estos dos para hojas de estilo para impresiones (medidas más precisas), evitando que se apliquen a las exhibiciones en pantalla.
+            <br>
+            <br>
+            <img src="/city.jpg" alt="ciudad" class="city">
+            <br>
+            <br>
+            ejemplo de una imagen en 10cm por 6cm.
+            <br>
+        </div>
+
+        <div class="px">
+            <br>
+            <b><h4>Paica (pc)</h4></b> 
+            <br>
+            También es una unidad poco utilizada en el mundo web, la Paica también llega al CSS, heredada de la tipografía. Por no ser una unidad muy conocida termina siendo olvidada, pero siempre es importante conocer todas las herramientas que tenemos a nuestra disposición. La relación entre unidades absolutas es:
+            1 in = 2,54 cm = 25,4 mm = 72 pt = 6 pc.
+
+            <br>
+            <br>
+            <div class="pc"></div>
+            <br>
+            ejemplo de un rectangulo con 25pc por 15pt.
+            <br>
+        </div>
+
+    </div>
+
+        <div id="Medidas Relativas" class="MD">
+            <h3>Medida Absolutas</h3>
+            Estas se dividen en: 
+            <br>
+            <div class="px">
+                <b><h4> Ems (em)</h4> </b>
+                <br>
+                Nuestra primera unidad relativa es muy famosa en el mundo CSS. Difícilmente encontrarás algún navegador que no admita esta medida, que ha estado presente desde el principio. 
+                Este es definitivamente uno de los puntos que hacen que el em sea muy popular. El segundo punto es sin duda, la facilidad para crear layouts fluidos y responsivos. <br>
+                Ejemplo: <br>
+                <br>
+                <div id="padre">
+                    div padre.
+                    <div id="hijo">
+                        div hijo.
+                    </div>
+                </div>
+            </div>
+
+            <div class="px">
+                <b><h4> Rems (rem, "root em")</h4></b>
+                <br>
+                El REM viene como sucesor del EM y ambos comparten la misma lógica operativa (font-size), pero la forma de implementación es diferente. Mientras que el em está directamente relacionado con el tamaño de fuente del elemento padre, el rem está relacionado con el tamaño de fuente del elemento root (raíz), en este caso, la tag.
+                El hecho de que el rem se relaciona con el elemento raíz soluciona ese problema que teníamos con varias divs (elementos) anidados, ya que no habrá esta "herencia" de tamaños.
+                Por ejemplo, sabemos que la tag html es la tag raíz de todo documento html. Dicho esto, si definimos que el font-size de este elemento será de 18 px, por lo que 1rem = 18px, 2rem = 36px y así sucesivamente... Por lo general, los navegadores especifican el tamaño de fuente predeterminado para el elemento root (raíz), 16px, ¡así que guárdelo en su corazón! Aun siendo esta unidad más tranquila para trabajar, no se usaba mucho para el diseño responsivo.
+                 <br>
+                Ejemplo: <br>
+                <br>
+                <div id="primero">
+                    Uno
+                    <div id="segundo">
+                    dos
+                    </div>
+                </div>
+            </div>
+
+                <div class="px">
+                <h4>Porcentaje (%)</h4>
+                <p><b>A pesar de no ser una unidad de medida, el porcentaje se usa a menudo cuando se trata de un layout responsivo y fluido, por lo que no podría dejarlo pasar. El porcentaje nos permite crear módulos que siempre serán readaptados para ocupar la cantidad especificada. Por ejemplo, si definimos un elemento que tiene un tamaño de 50%, independientemente del dispositivo en cuestión, este módulo ocupará siempre la mitad del espacio que le corresponde (si se encuentra dentro de cualquier otro elemento).</p>
+                <br>
+                <img src="/HTML5_Badge_512.png" alt="html" class="porcentaje">
+                <br>
+                Ejemplo de unidad de medida: 15% de largo y hancho
+                </div>
+
+                <div class="px">
+                <h4>Ex</h4>
+                Puede que nunca hayas oído hablar de esta unidad del CSS, pero existe. A diferencia de la forma en que EM y el REM funcionaban, esta unidad no está relacionada con el tamaño de la fuente (font-size), sino con qué fuente se está utilizando en ese momento (font-family), más específicamente con el tamaño del carácter x de esta fuente en cuestión (x-height).
+                <br>
+                Ejemplo de unidad de medida ex:
+                    <p class="ex2">
+                        El texto tiene un tamaño de 2ex.
+                    </p>
+                  
+                </div>
+                
+                <div class="px">
+                <h4>Width y Height</h4>
+                Las propiedades width y height (ancho y alto) nos permiten establecer el ancho y/o alto de un elemento. El valor por defecto es auto y se puede establecer en pixeles, ems, rems o %.
+                IMPORTANTE: El valor establecido se define dentro del padding del elemento, con lo que no incluye los valores de las propiedades padding, margin y border.
+                Las propiedades min-width, max-width, min-height y max-height anulan, respectivamente, las anteriores width y height. <br>
+                Ejemplo:
+                <br>
+                <img src="/bus.jpg" alt="bus" width="600" height="300">
+                <br>
+                imagen con width de 600 y height de 300.
+                </div>
+        </div>
+<hr>
+        <footer>Producido por los desarrolladores fullstack: <br>
+            Carlos Esteban Robledo Cartagena. <br>
+            Miguel Angel Lara. <br>
+            Todos los derechos reservados <br> 
+            2021
+        </footer>
+    </body>
+</html>
